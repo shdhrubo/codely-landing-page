@@ -6,6 +6,9 @@ import feature3 from "@/public/images/unique-features/features_icon_03.svg";
 import analyze_image from "@/public/images/analyze-data/Analyze_Icon.svg";
 import analyze_bg from "@/public/images/analyze-data/Analyze_bg.png";
 import right_icon from "@/public/images/analyze-data/right_icon.svg";
+import collaborate_image from "@/public/images/collaborate/collaborate_image.svg";
+import sync_followers from "@/public/images/collaborate/Syncfollowers.svg";
+import globally_connected from "@/public/images/collaborate/Globallyconnected.svg";
 
 export const AppImages = {
   Logo: logo,
@@ -16,4 +19,7 @@ export const AppImages = {
   Analyze_Image: analyze_image,
   Analyze_Bg: analyze_bg,
   Right_Icon: right_icon,
+  Collaborate_Image: collaborate_image,
+  Sync_Followers: sync_followers,
+  Globally_Connected: globally_connected,
 };
