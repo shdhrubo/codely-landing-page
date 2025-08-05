@@ -2,13 +2,13 @@ import Link from "next/link";
 import React from "react";
 import styles from "./navbar.module.scss";
 import Image from "next/image";
-import logo from "@/public/images/logo/logo.png";
+import { AppImages } from "@/app/shared/image/image";
 const Navbar = () => {
   return (
     <nav className={styles?.test}>
       <div>
         {" "}
-        <Image src={logo} alt="this is logo"></Image>
+        <Image src={AppImages.Logo} alt="this is logo"></Image>
       </div>
       <div>
         {" "}

@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import banner from "@/public/images/banner/banner.png";
 import Icon from "@/app/shared/icon/icon";
+import { AppImages } from "@/app/shared/image/image";
 
 const Banner = () => {
   return (
-    <main className="grid grid-cols-1 md:grid-cols-2 items-center ">
+    <main className="grid grid-cols-1 md:grid-cols-2 items-center">
       <div className="mx-auto text-center md:text-left max-w-[500px] px-[15px]">
-        <div className="flex items-center gap-[1px]">
+        <div className="flex items-center gap-[1px] justify-center md:justify-start">
           <Icon
             name="rocket"
             width={20}
@@ -27,7 +27,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="px-[15px]">
-        <Image src={banner} alt="banner" placeholder="blur"></Image>
+        <Image src={AppImages.Banner} alt="banner" placeholder="blur"></Image>
       </div>
     </main>
   );

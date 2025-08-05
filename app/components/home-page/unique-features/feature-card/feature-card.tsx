@@ -1,25 +1,24 @@
 import React from "react";
 import Image from "next/image";
-import feature1 from "@/public/images/unique-features/features_icon_01.svg";
-import feature2 from "@/public/images/unique-features/features_icon_02.svg";
-import feature3 from "@/public/images/unique-features/features_icon_03.svg";
+
 import Icon from "@/app/shared/icon/icon";
+import { AppImages } from "@/app/shared/image/image";
 
 const cardData = [
   {
-    image: feature1,
+    image: AppImages.Feature_Icon_1,
     title: "Highly customizable",
     description:
       "Lorem Ipsum is simply dummy text of the printing and type setting indus ideas orem Ipsum has beenthe.",
   },
   {
-    image: feature2,
+    image: AppImages.Feature_Icon_2,
     title: "Pixel perfect design",
     description:
       "Lorem Ipsum is simply dummy text of the printing and type setting indus ideas orem Ipsum has beenthe.",
   },
   {
-    image: feature3,
+    image: AppImages.Feature_Icon_3,
     title: "Lifetime free updates",
     description:
       "Lorem Ipsum is simply dummy text of the printing and type setting indus ideas orem Ipsum has beenthe.",
