@@ -9,11 +9,11 @@ const Collaborate = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 items-center mx-auto max-w-[1200px]">
         {/* image section  */}
         <div className="px-0 md:px-[15px] order-2 md:order-1">
-          <Image src={AppImages.Analyze_Bg} alt="Background"></Image>
+          <Image src={AppImages.Collaborate_Bg} alt="Background"></Image>
         </div>
         {/* text section  */}
-        <div className="px-[15px] mx-auto order-1 md:order-2">
-          <div className="w-full md:pl-[30px]">
+        <div className="w-full sm:max-w-[540px] md:max-w-[600px] px-[15px] mx-auto order-1 md:order-2">
+          <div className=" md:pl-[30px]">
             <Image
               src={AppImages.Collaborate_Image}
               alt="analyze-image"
@@ -64,13 +64,13 @@ const Collaborate = () => {
                 </div>
               </div>
             </div>
-            <button className="group flex items-center text-white bg-orange uppercase  text-[12px] leading-[18px] md:text-[15px] md:leading-[23px] font-bold px-[20px] py-[8px] md:px-[30px] md:py-[10px] cursor-pointer  rounded-[25px]">
+            <button className="group border-[0.8px] flex items-center text-white bg-orange uppercase  text-[12px] leading-[18px] md:text-[15px] md:leading-[23px] font-bold px-[20px] py-[8px] md:px-[30px] md:py-[10px] cursor-pointer  rounded-[25px] ">
               Read More
               <Icon
                 name="arrow-right"
                 width={20}
                 height={22}
-                className="inline ml-1 -rotate-45 group-hover:rotate-0 transition-all duration-400 "
+                className="ml-1 -rotate-45 group-hover:rotate-0 transition-all duration-400 text-[20px]"
               ></Icon>
             </button>
           </div>

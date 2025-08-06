@@ -7,6 +7,7 @@ import HomePage from "./components/home-page/home-page";
 
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
+  fallback: ["sans-serif"],
 });
 
 export const metadata: Metadata = {
