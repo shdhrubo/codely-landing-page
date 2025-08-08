@@ -12,6 +12,10 @@ import sync_followers from "@/public/images/collaborate/Syncfollowers.svg";
 import globally_connected from "@/public/images/collaborate/Globallyconnected.svg";
 import communication_bg from "@/public/images/communication/communication_bg.png";
 import communication_image from "@/public/images/communication/comunication_img.svg";
+import secure_data from "@/public/images/advanced-feature/Secure-data.svg";
+import fully_functional from "@/public/images/advanced-feature/Fully-functional.svg";
+import live_chat from "@/public/images/advanced-feature/Live-chat.svg";
+import support from "@/public/images/advanced-feature/24-7-Support.svg";
 
 export const AppImages = {
   Logo: logo,
@@ -28,4 +32,8 @@ export const AppImages = {
   Globally_Connected: globally_connected,
   Communication_Bg: communication_bg,
   Communication_Image: communication_image,
+  Secure_Data: secure_data,
+  Fully_Functional: fully_functional,
+  Live_Chat: live_chat,
+  Support: support,
 };
