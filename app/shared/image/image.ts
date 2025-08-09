@@ -16,6 +16,16 @@ import secure_data from "@/public/images/advanced-feature/Secure-data.svg";
 import fully_functional from "@/public/images/advanced-feature/Fully-functional.svg";
 import live_chat from "@/public/images/advanced-feature/Live-chat.svg";
 import support from "@/public/images/advanced-feature/24-7-Support.svg";
+import powerful_bg from "@/public/images/powerful-solution/business_vectore.png";
+import powerful_solution_1 from "@/public/images/powerful-solution/Powerful-solution-01.png";
+import powerful_solution_2 from "@/public/images/powerful-solution/Powerful-solution-02.png";
+import powerful_solution_3 from "@/public/images/powerful-solution/Powerful-solution-03.png";
+import powerful_solution_4 from "@/public/images/powerful-solution/Powerful-solution-04.png";
+import powerful_solution_5 from "@/public/images/powerful-solution/Powerful-solution-05.png";
+import powerful_solution_6 from "@/public/images/powerful-solution/Powerful-solution-06.png";
+import powerful_solution_7 from "@/public/images/powerful-solution/Powerful-solution-07.png";
+import powerful_solution_8 from "@/public/images/powerful-solution/Powerful-solution-08.png";
+import powerful_solution_9 from "@/public/images/powerful-solution/Powerful-solution-09.png";
 
 export const AppImages = {
   Logo: logo,
@@ -36,4 +46,14 @@ export const AppImages = {
   Fully_Functional: fully_functional,
   Live_Chat: live_chat,
   Support: support,
+  Powerful_Bg: powerful_bg,
+  Powerful_Solution_1: powerful_solution_1,
+  Powerful_Solution_2: powerful_solution_2,
+  Powerful_Solution_3: powerful_solution_3,
+  Powerful_Solution_4: powerful_solution_4,
+  Powerful_Solution_5: powerful_solution_5,
+  Powerful_Solution_6: powerful_solution_6,
+  Powerful_Solution_7: powerful_solution_7,
+  Powerful_Solution_8: powerful_solution_8,
+  Powerful_Solution_9: powerful_solution_9,
 };

@@ -5,6 +5,7 @@ import AnalyzeData from "./analyze-data/analyze-data";
 import Collaborate from "./collaborate/collaborate";
 import Communication from "./communication/communication";
 import AdvancedFeature from "./advanced-feature/advanced-feature";
+import PowerfulSolution from "./powerful-solution/powerful-solution";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Collaborate></Collaborate>
       <Communication></Communication>
       <AdvancedFeature></AdvancedFeature>
+      <PowerfulSolution></PowerfulSolution>
     </main>
   );
 };
