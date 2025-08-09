@@ -26,7 +26,16 @@ import powerful_solution_6 from "@/public/images/powerful-solution/Powerful-solu
 import powerful_solution_7 from "@/public/images/powerful-solution/Powerful-solution-07.png";
 import powerful_solution_8 from "@/public/images/powerful-solution/Powerful-solution-08.png";
 import powerful_solution_9 from "@/public/images/powerful-solution/Powerful-solution-09.png";
-
+import mailchimp from "@/public/images/popular-platform/platforms_01.png";
+import googleDrive from "@/public/images/popular-platform/platforms_02.png";
+import whatsapp from "@/public/images/popular-platform/platforms_03.png";
+import dropbox from "@/public/images/popular-platform/platforms_04.png";
+import skype from "@/public/images/popular-platform/platforms_05.png";
+import wordpress from "@/public/images/popular-platform/platforms_06.png";
+import smashing from "@/public/images/popular-platform/platforms_07.png";
+import firefox from "@/public/images/popular-platform/platforms_08.png";
+import yahoo from "@/public/images/popular-platform/platforms_09.png";
+import bing from "@/public/images/popular-platform/platforms_10.png";
 export const AppImages = {
   Logo: logo,
   Banner: banner,
@@ -56,4 +65,14 @@ export const AppImages = {
   Powerful_Solution_7: powerful_solution_7,
   Powerful_Solution_8: powerful_solution_8,
   Powerful_Solution_9: powerful_solution_9,
+  Mailchimp: mailchimp,
+  Google_Drive: googleDrive,
+  Whatsapp: whatsapp,
+  Dropbox: dropbox,
+  Skype: skype,
+  Wordpress: wordpress,
+  Smashing: smashing,
+  Firefox: firefox,
+  Yahoo: yahoo,
+  Bing: bing,
 };

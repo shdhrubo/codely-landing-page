@@ -6,6 +6,7 @@ import Collaborate from "./collaborate/collaborate";
 import Communication from "./communication/communication";
 import AdvancedFeature from "./advanced-feature/advanced-feature";
 import PowerfulSolution from "./powerful-solution/powerful-solution";
+import PopularPlatform from "./popular-platform/popular-platform";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <Communication></Communication>
       <AdvancedFeature></AdvancedFeature>
       <PowerfulSolution></PowerfulSolution>
+      <PopularPlatform></PopularPlatform>
     </main>
   );
 };
