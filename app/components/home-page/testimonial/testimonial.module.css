@@ -6,3 +6,7 @@
   position: relative;
   margin-top: 20px;
 }
+:global(.swiper-pagination > .swiper-pagination-bullet) {
+  width: 15px;
+  height: 15px;
+}
