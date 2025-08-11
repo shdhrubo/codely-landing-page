@@ -7,6 +7,7 @@ import Communication from "./communication/communication";
 import AdvancedFeature from "./advanced-feature/advanced-feature";
 import PowerfulSolution from "./powerful-solution/powerful-solution";
 import PopularPlatform from "./popular-platform/popular-platform";
+import Testimonial from "./testimonial/testimonial";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
       <AdvancedFeature></AdvancedFeature>
       <PowerfulSolution></PowerfulSolution>
       <PopularPlatform></PopularPlatform>
+      <Testimonial></Testimonial>
     </main>
   );
 };

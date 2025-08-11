@@ -56,7 +56,7 @@ const PopularPlatform = () => {
   return (
     <section className="py-[50px] md:pt-[100px] md:pb-[50px]">
       <div className=" mx-auto max-w-[1200px]">
-        <div className="px-[15px]">
+        <section className="px-[15px]">
           <section className="max-w-[600px] mx-auto text-center">
             <h2 className="text-secondary font-bold text-[25px] leading-[30px] mb-[10px] md:text-[40px] md:leading-12">
               Easy integration <br /> with popular platforms
@@ -66,7 +66,7 @@ const PopularPlatform = () => {
               indus orem Ipsum has beenthe standard dummy text ever since.
             </p>
           </section>
-        </div>
+        </section>
         <section className="grid grid-cols-2  md:grid-cols-4  lg:grid-cols-6">
           {cardData.map((card, key) => (
             <div key={key} className="px-[15px] min-w-50">

@@ -36,6 +36,10 @@ import smashing from "@/public/images/popular-platform/platforms_07.png";
 import firefox from "@/public/images/popular-platform/platforms_08.png";
 import yahoo from "@/public/images/popular-platform/platforms_09.png";
 import bing from "@/public/images/popular-platform/platforms_10.png";
+import testi_1 from "@/public/images/testimonial/testi_01.png";
+import testi_2 from "@/public/images/testimonial/testi_02.png";
+import testi_3 from "@/public/images/testimonial/testi_03.png";
+
 export const AppImages = {
   Logo: logo,
   Banner: banner,
@@ -75,4 +79,7 @@ export const AppImages = {
   Firefox: firefox,
   Yahoo: yahoo,
   Bing: bing,
+  Testimonial_Img_1: testi_1,
+  Testimonial_Img_2: testi_2,
+  Testimonial_Img_3: testi_3,
 };
