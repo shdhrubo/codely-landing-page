@@ -1,3 +1,8 @@
 .reviewer {
   width: calc(100% - 50px);
 }
+:global(.swiper-horizontal > .swiper-pagination-bullets),
+:global(.swiper-pagination-bullets.swiper-pagination-horizontal) {
+  position: relative;
+  margin-top: 20px;
+}

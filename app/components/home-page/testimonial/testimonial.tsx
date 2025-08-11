@@ -77,14 +77,14 @@ const Testimonial = () => {
             {testimonialData.map((data, key) => (
               <SwiperSlide key={key}>
                 <section className="bg-white py-[30px] px-4 mb-[30px] rounded-[10px] h-full hover:cursor-grab">
-                  <p className="mb-[10px]">
-                    {" "}
-                    <Icon
-                      name="star-icon"
-                      width={20}
-                      height={22}
-                      className="text-primary"
-                    />
+                  <p className="mb-[10px] flex gap-1">
+                    {[...Array(data.rating)].map((_, i) => (
+                      <Icon
+                        key={i}
+                        name="arrow-right"
+                        className="text-orange"
+                      />
+                    ))}
                   </p>
                   <p className="text-gray text-[16px] leading-[27px] md:text-[17px] md:leading-[29px] font-normal mb-4">
                     {data.review}
@@ -110,6 +110,28 @@ const Testimonial = () => {
               </SwiperSlide>
             ))}
           </Swiper>
+
+          <section className="mt-5 flex items-center justify-center">
+            <div className="flex items-center">
+              {[...Array(5)].map((_, i) => (
+                <Icon key={i} name="arrow-right" className="text-orange" />
+              ))}
+            </div>
+            <div>
+              <h4 className="text-xs leading-8 font-bold md:text-[17px] flex items-center">
+                <span className="text-secondary"> 5.0 / 5.0 - </span>
+                <span className="text-primary">
+                  3689 Total User Reviews{" "}
+                  <Icon
+                    name="arrow-right"
+                    className="inline"
+                    width={17}
+                    height={19.2}
+                  ></Icon>
+                </span>
+              </h4>
+            </div>
+          </section>
         </section>
       </div>
     </section>
