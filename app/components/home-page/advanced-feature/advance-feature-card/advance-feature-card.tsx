@@ -33,12 +33,12 @@ const AdvanceFeatureCard = () => {
     <section className="flex flex-wrap max-w-[1170px] mx-auto">
       {cardData.map((card, index) => (
         <section key={index} className="w-full md:w-1/2 px-[15px]">
-          <div className="mt-[30px] p-[30px] md:p-10 bg-white rounded-xl   md:flex md:items-start gap-x-[15px] ">
+          <div className="mt-[30px] p-[30px] pb-[15px] md:p-10 bg-white rounded-xl   md:flex md:items-start gap-x-[15px] ">
             <Image
               src={card.image}
               alt={`feature-image`}
               width={95}
-              className="mx-auto"
+              className="mx-auto w-auto"
             />
             <div className="text-center md:text-left w-full md:max-w-[365px] mt-[15px] md:mt-0">
               <h3 className="text-secondary text-[16px] leading-[27px] font-bold md:text-xl md:leading-6 mb-5">
