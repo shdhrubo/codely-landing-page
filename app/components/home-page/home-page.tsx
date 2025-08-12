@@ -8,6 +8,7 @@ import AdvancedFeature from "./advanced-feature/advanced-feature";
 import PowerfulSolution from "./powerful-solution/powerful-solution";
 import PopularPlatform from "./popular-platform/popular-platform";
 import Testimonial from "./testimonial/testimonial";
+import TrustedBy from "./trusted-by/trusted-by";
 
 const HomePage = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage = () => {
       <PowerfulSolution></PowerfulSolution>
       <PopularPlatform></PopularPlatform>
       <Testimonial></Testimonial>
+      <TrustedBy></TrustedBy>
     </main>
   );
 };

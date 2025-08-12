@@ -1,11 +1,8 @@
-.reviewer {
-  width: calc(100% - 50px);
-}
-.testimonial {
+.trustedBy {
   :global(.swiper-horizontal > .swiper-pagination-bullets),
   :global(.swiper-pagination-bullets.swiper-pagination-horizontal) {
     position: relative;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   :global(.swiper-pagination > .swiper-pagination-bullet) {
     width: 15px;

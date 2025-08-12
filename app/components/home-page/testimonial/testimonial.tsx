@@ -63,6 +63,7 @@ const Testimonial = () => {
           </section>
 
           <Swiper
+            className={styles.testimonial}
             autoplay={{ delay: 2500, disableOnInteraction: false }}
             loop={true}
             modules={[Autoplay, Pagination]}
@@ -111,7 +112,7 @@ const Testimonial = () => {
             ))}
           </Swiper>
 
-          <section className="mt-5 flex items-center justify-center">
+          <section className=" mt-5 flex items-center justify-center">
             <div className="flex items-center">
               {[...Array(5)].map((_, i) => (
                 <Icon key={i} name="arrow-right" className="text-orange" />
@@ -119,8 +120,9 @@ const Testimonial = () => {
             </div>
             <div>
               <h4 className="text-xs leading-8 font-bold md:text-[17px] flex items-center">
-                <span className="text-secondary"> 5.0 / 5.0 - </span>
-                <span className="text-primary">
+                <span className="text-secondary"> 5.0 / 5.0 -</span>
+                <span className="text-primary ml-1">
+                  {" "}
                   3689 Total User Reviews{" "}
                   <Icon
                     name="arrow-right"

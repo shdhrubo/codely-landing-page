@@ -39,6 +39,11 @@ import bing from "@/public/images/popular-platform/platforms_10.png";
 import testi_1 from "@/public/images/testimonial/testi_01.png";
 import testi_2 from "@/public/images/testimonial/testi_02.png";
 import testi_3 from "@/public/images/testimonial/testi_03.png";
+import spotify from "@/public/images/trusted-by/spoty.png";
+import envato from "@/public/images/trusted-by/envato.png";
+import paypal from "@/public/images/trusted-by/paypal.png";
+import slack from "@/public/images/trusted-by/slack.png";
+import shopboat from "@/public/images/trusted-by/shopboat.png";
 
 export const AppImages = {
   Logo: logo,
@@ -82,4 +87,9 @@ export const AppImages = {
   Testimonial_Img_1: testi_1,
   Testimonial_Img_2: testi_2,
   Testimonial_Img_3: testi_3,
+  Spotify: spotify,
+  Envato: envato,
+  Paypal: paypal,
+  Slack: slack,
+  Shopboat: shopboat,
 };
