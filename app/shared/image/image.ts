@@ -44,6 +44,9 @@ import envato from "@/public/images/trusted-by/envato.png";
 import paypal from "@/public/images/trusted-by/paypal.png";
 import slack from "@/public/images/trusted-by/slack.png";
 import shopboat from "@/public/images/trusted-by/shopboat.png";
+import freeTrial from "@/public/images/plans/Free-Trial-01.svg";
+import unlimited from "@/public/images/plans/unlimited.png";
+import premium from "@/public/images/plans/Premium.svg";
 
 export const AppImages = {
   Logo: logo,
@@ -92,4 +95,7 @@ export const AppImages = {
   Paypal: paypal,
   Slack: slack,
   Shopboat: shopboat,
+  FreeTrial: freeTrial,
+  Unlimited: unlimited,
+  Premium: premium,
 };

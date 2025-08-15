@@ -9,6 +9,7 @@ import PowerfulSolution from "./powerful-solution/powerful-solution";
 import PopularPlatform from "./popular-platform/popular-platform";
 import Testimonial from "./testimonial/testimonial";
 import TrustedBy from "./trusted-by/trusted-by";
+import Plan from "./plans/plan";
 
 const HomePage = () => {
   return (
@@ -23,6 +24,7 @@ const HomePage = () => {
       <PopularPlatform></PopularPlatform>
       <Testimonial></Testimonial>
       <TrustedBy></TrustedBy>
+      <Plan></Plan>
     </main>
   );
 };

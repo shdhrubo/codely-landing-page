@@ -78,12 +78,14 @@ const Testimonial = () => {
             {testimonialData.map((data, key) => (
               <SwiperSlide key={key}>
                 <section className="bg-white py-[30px] px-4 mb-[30px] rounded-[10px] h-full hover:cursor-grab">
-                  <p className="mb-[10px] flex gap-1">
+                  <p className="mb-[10px] flex ">
                     {[...Array(data.rating)].map((_, i) => (
                       <Icon
                         key={i}
-                        name="arrow-right"
+                        name="star-icon"
                         className="text-orange"
+                        width={15}
+                        height={16.8}
                       />
                     ))}
                   </p>
@@ -112,10 +114,16 @@ const Testimonial = () => {
             ))}
           </Swiper>
 
-          <section className=" mt-5 flex items-center justify-center">
-            <div className="flex items-center">
+          <section className=" mt-5 flex items-center justify-center ">
+            <div className="flex items-center mr-[5px]">
               {[...Array(5)].map((_, i) => (
-                <Icon key={i} name="arrow-right" className="text-orange" />
+                <Icon
+                  key={i}
+                  name="star-icon"
+                  className="text-orange"
+                  width={18}
+                  height={20}
+                />
               ))}
             </div>
             <div>
