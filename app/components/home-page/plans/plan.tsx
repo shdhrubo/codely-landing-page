@@ -52,7 +52,7 @@ const Plan = () => {
               </div>
             </div>
           </section>
-          <section>
+          <section className="mt-[50px]">
             <PlanCards isYearly={isYearly}></PlanCards>
           </section>
         </section>

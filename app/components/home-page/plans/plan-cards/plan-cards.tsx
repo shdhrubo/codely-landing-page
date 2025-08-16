@@ -1,3 +1,4 @@
+import Icon from "@/app/shared/icon/icon";
 import { AppImages } from "@/app/shared/image/image";
 import Image from "next/image";
 import React from "react";
@@ -50,12 +51,12 @@ const PlanCards: React.FC<{ isYearly: boolean }> = ({ isYearly }) => {
   ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center">
+    <div className="flex flex-col md:flex-row  items-center justify-center">
       {pricingData.map((plan, index) => (
-        <div key={index} className="px-[15px]">
+        <div key={index} className="md:px-[15px] w-full">
           <div
             key={index}
-            className={`p-[30px] md:pt-[60px] md:pl-[50px] rounded-[12px] shadow-[0_4px_30px] shadow-[#ede9fe] ${
+            className={` p-[30px] md:pt-[60px] md:pl-[50px] border border-[#f1eff7] rounded-[12px] shadow-[0_4px_30px] shadow-[#ede9fe] mb-[30px] ${
               index === 1 ? "bg-primary" : "bg-white"
             }`}
           >
@@ -97,6 +98,41 @@ const PlanCards: React.FC<{ isYearly: boolean }> = ({ isYearly }) => {
                 /{isYearly ? "Year" : "Month"}
               </span>
             </h1>
+            <div className="mb-10">
+              {plan.features.map((feature, featureIndex) => (
+                <p
+                  key={featureIndex}
+                  className={`text-[15px] leading-[26px] font-normal md:text-[17px] md:leading-[29px] mb-[5px]  ${
+                    index === 1 ? "text-white" : "text-secondary"
+                  }`}
+                >
+                  <Icon
+                    name={
+                      feature.isIncluded ? "check-circled" : "close-circled"
+                    }
+                    className={`inline  w-[15px] h-[15px] md:w-[17px] md:h-[17px] mr-[5px] ${
+                      feature.isIncluded ? "text-green-500" : "text-red-500"
+                    } ${index === 1 ? "text-white" : ""}`}
+                  ></Icon>
+                  <span className="relative top-[1px]">{feature.title}</span>
+                </p>
+              ))}
+            </div>
+            <button
+              className={`group w-[180px] border text-primary uppercase text-sm leading-[21px] font-bold px-[20px] py-[8px] md:px-[30px] md:py-[10px] cursor-pointer rounded-[25px] transition-all duration-400  ${
+                index === 1
+                  ? "bg-orange-gradient text-white border-transparent hover:bg-hover-gradient hover:opacity-[0.9]"
+                  : "bg-white hover:bg-primary hover:text-white"
+              }`}
+            >
+              Buy Now
+              <Icon
+                name="arrow-right"
+                width={20}
+                height={22}
+                className={`inline ml-1 -rotate-45 group-hover:rotate-0  `}
+              ></Icon>
+            </button>
           </div>
         </div>
       ))}

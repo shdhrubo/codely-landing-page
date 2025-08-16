@@ -14,6 +14,10 @@ body {
   --color-light-black: #212529;
   --color-pale-blue: #f1eff7;
   --color-purple-secondary: #6a49f2;
+  --color-green-500: #009515;
+  --color-red-500: #ff0000;
+  --background-image-orange-gradient: linear-gradient(135deg, #ff7133, #ff8c5a);
+  --background-image-hover-gradient: linear-gradient(135deg, #ff8c5a, #ff7133);
   --breakpoint-sm: 600;
   --breakpoint-md: 960;
   --breakpoint-lg: 1280;
