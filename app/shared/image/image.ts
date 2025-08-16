@@ -47,6 +47,7 @@ import shopboat from "@/public/images/trusted-by/shopboat.png";
 import freeTrial from "@/public/images/plans/Free-Trial-01.svg";
 import unlimited from "@/public/images/plans/unlimited.png";
 import premium from "@/public/images/plans/Premium.svg";
+import unlimited_bg from "@/public/images/plans/pricing-bg2.png";
 
 export const AppImages = {
   Logo: logo,
@@ -98,4 +99,5 @@ export const AppImages = {
   FreeTrial: freeTrial,
   Unlimited: unlimited,
   Premium: premium,
+  Unlimited_Bg: unlimited_bg,
 };

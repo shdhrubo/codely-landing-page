@@ -56,10 +56,20 @@ const PlanCards: React.FC<{ isYearly: boolean }> = ({ isYearly }) => {
         <div key={index} className="md:px-[15px] w-full">
           <div
             key={index}
-            className={` p-[30px] md:pt-[60px] md:pl-[50px] border border-[#f1eff7] rounded-[12px] shadow-[0_4px_30px] shadow-[#ede9fe] mb-[30px] ${
+            className={` p-[30px] md:pt-[60px] md:pl-[50px] border border-[#f1eff7] rounded-[12px] shadow-[0_4px_30px] shadow-[#ede9fe] mb-[30px]  bg-no-repeat bg-cover relative ${
               index === 1 ? "bg-primary" : "bg-white"
             }`}
           >
+            {index === 1 && (
+              <Image
+                src={AppImages.Unlimited_Bg}
+                alt="background"
+                width={246}
+                height={246}
+                className="absolute top-[-70px] left-[-70px] w-[246px] h-[246px]  z-0 "
+              />
+            )}
+
             <Image
               src={plan.image}
               alt="image"
@@ -114,7 +124,7 @@ const PlanCards: React.FC<{ isYearly: boolean }> = ({ isYearly }) => {
                       feature.isIncluded ? "text-green-500" : "text-red-500"
                     } ${index === 1 ? "text-white" : ""}`}
                   ></Icon>
-                  <span className="relative top-[1px]">{feature.title}</span>
+                  <span className="relative top-[2px]">{feature.title}</span>
                 </p>
               ))}
             </div>
