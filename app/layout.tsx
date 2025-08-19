@@ -23,11 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${plusJakarta.className}`}>
-        <header>{/* <Navbar></Navbar> */}</header>
+        <Navbar></Navbar>
         <main> {children}</main>
-        <footer>
-          <Footer></Footer>
-        </footer>
+        <Footer></Footer>
       </body>
     </html>
   );

@@ -1,0 +1,30 @@
+.header_container {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+}
+
+.test {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  width: 100%;
+  z-index: 1000;
+}
+
+.test ul {
+  display: flex;
+  align-items: center;
+}
+
+.test li a {
+  padding: 5px 16px;
+  color: #3e3f66;
+}
+
+.icon_style {
+  display: inline;
+  color: #3e3f66;
+  position: relative;
+  right: 12px;
+}
