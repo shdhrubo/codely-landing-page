@@ -49,6 +49,9 @@ import unlimited from "@/public/images/plans/unlimited.png";
 import premium from "@/public/images/plans/Premium.svg";
 import unlimited_bg from "@/public/images/plans/pricing-bg2.png";
 import question_icon from "@/public/images/faq/question-icon.svg";
+import story1 from "@/public/images/latest-story/story-01.png";
+import story2 from "@/public/images/latest-story/story-02.png";
+import story3 from "@/public/images/latest-story/story-03.png";
 
 export const AppImages = {
   Logo: logo,
@@ -102,4 +105,7 @@ export const AppImages = {
   Premium: premium,
   Unlimited_Bg: unlimited_bg,
   Qustion_Icon: question_icon,
+  Latest_Story_1: story1,
+  Latest_Story_2: story2,
+  Latest_Story_3: story3,
 };

@@ -11,6 +11,7 @@ import Testimonial from "./testimonial/testimonial";
 import TrustedBy from "./trusted-by/trusted-by";
 import Plan from "./plans/plan";
 import FAQ from "./faq/faq";
+import LatestStory from "./latest-story/latest-story";
 
 const HomePage = () => {
   return (
@@ -27,6 +28,7 @@ const HomePage = () => {
       <TrustedBy></TrustedBy>
       <Plan></Plan>
       <FAQ></FAQ>
+      <LatestStory></LatestStory>
     </main>
   );
 };
