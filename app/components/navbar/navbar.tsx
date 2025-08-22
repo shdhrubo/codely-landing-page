@@ -14,8 +14,8 @@ const Navbar = () => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 80);
     };
+    handleScroll();
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   // Reusable Nav Items
@@ -78,7 +78,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`sticky top-0 z-999 ${
+      className={`sticky top-0 z-999 h-21 ${
         scrolled ? styles.header_container : "bg-transparent"
       }`}
     >
@@ -126,7 +126,7 @@ const Navbar = () => {
 
         {/* Mobile Menu List */}
         {menuOpen && (
-          <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-md pt-5 pb-[150px] px-[15px] border-t border-primary transition-all duration-400 ">
+          <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-md pt-5  px-[15px] border-t border-primary transition-all duration-400 h-screen">
             <ul className="flex flex-col   gap-5">{navItems}</ul>
           </div>
         )}

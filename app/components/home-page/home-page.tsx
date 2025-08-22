@@ -10,6 +10,7 @@ import PopularPlatform from "./popular-platform/popular-platform";
 import Testimonial from "./testimonial/testimonial";
 import TrustedBy from "./trusted-by/trusted-by";
 import Plan from "./plans/plan";
+import FAQ from "./faq/faq";
 
 const HomePage = () => {
   return (
@@ -25,6 +26,7 @@ const HomePage = () => {
       <Testimonial></Testimonial>
       <TrustedBy></TrustedBy>
       <Plan></Plan>
+      <FAQ></FAQ>
     </main>
   );
 };

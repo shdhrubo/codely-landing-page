@@ -48,6 +48,7 @@ import freeTrial from "@/public/images/plans/Free-Trial-01.svg";
 import unlimited from "@/public/images/plans/unlimited.png";
 import premium from "@/public/images/plans/Premium.svg";
 import unlimited_bg from "@/public/images/plans/pricing-bg2.png";
+import question_icon from "@/public/images/faq/question-icon.svg";
 
 export const AppImages = {
   Logo: logo,
@@ -100,4 +101,5 @@ export const AppImages = {
   Unlimited: unlimited,
   Premium: premium,
   Unlimited_Bg: unlimited_bg,
+  Qustion_Icon: question_icon,
 };
