@@ -28,11 +28,10 @@ const FAQ = () => {
     },
   ];
 
-  // Track which index is active
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [activeIndex, setActiveIndex] = useState(-1);
 
   const handleToggle = (index: number) => {
-    setActiveIndex(activeIndex === index ? null : index);
+    setActiveIndex(activeIndex === index ? -1 : index);
   };
 
   return (
