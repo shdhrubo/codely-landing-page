@@ -51,60 +51,61 @@ const LatestStory = () => {
             </p>
           </section>
           <section>
-            <section className="flex flex-col md:flex-row justify-between items-center  gap-x-[38px]">
+            <section className="flex flex-col md:flex-row justify-center items-center md:mx-[-15px]">
               {storyData.map((story, index) => (
-                <section
-                  key={index}
-                  className=" bg-white rounded-xl mb-[30px] md:mb-0 relative"
-                >
-                  <Image
-                    src={story.img}
-                    alt={story.title}
-                    className="rounded-xl w-full"
-                  />
-                  <div className="bg-white rounded-xl absolute top-[10px] left-[10px] px-[10px] py-[6px] text-center text-[17px] leading-[17px] font-bold">
-                    {story.date} <br />
-                    <div className="text-xs leading-[18px]">{story.month}</div>
-                  </div>
-                  <div className="p-[15px] md:px-[30px] md:py-5">
-                    <div className="mb-[12px] flex items-center gap-x-[15px]">
-                      <p>
-                        <Icon
-                          name="user-suited"
-                          className="text-primary size-3 inline"
-                        ></Icon>{" "}
-                        <span className="text-xs leading-5 font-normal text-gray">
-                          {" "}
-                          {story.author}
-                        </span>
-                      </p>
-                      <p>
-                        <Icon
-                          name="speech-comments"
-                          className="text-primary  size-3 inline"
-                        ></Icon>{" "}
-                        <span className="text-xs leading-5 font-normal text-gray">
-                          {" "}
-                          {story.comments} Comments
-                        </span>
-                      </p>
+                <section key={index} className="px-[15px]">
+                  <section className=" bg-white rounded-xl mb-[30px] md:mb-0 relative">
+                    <Image
+                      src={story.img}
+                      alt={story.title}
+                      className="rounded-xl w-full"
+                    />
+                    <div className="bg-white rounded-xl absolute top-[10px] left-[10px] px-[10px] py-[6px] text-center text-[17px] leading-[17px] font-bold">
+                      {story.date} <br />
+                      <div className="text-xs leading-[18px]">
+                        {story.month}
+                      </div>
                     </div>
-                    <h3 className="text-secondary font-bold text-[20px] leading-[24px] mb-2">
-                      {story.title}
-                    </h3>
-                    <p className="text-gray text-[14px] leading-[21px] font-normal mb-2">
-                      {story.description}
-                    </p>
-                    <button className="group flex items-center  border border-white text-primary bg-white uppercase text-sm leading-[21px] font-bold  cursor-pointer hover:text-light-black mt-[25px] mb-[10px]">
-                      Read More
-                      <Icon
-                        name="arrow-right"
-                        width={20}
-                        height={22}
-                        className="inline ml-1 -rotate-45 group-hover:rotate-0 transition-all duration-400 "
-                      ></Icon>
-                    </button>
-                  </div>
+                    <div className="p-[15px] md:px-[30px] md:py-5">
+                      <div className="mb-[12px] flex items-center gap-x-[15px]">
+                        <p>
+                          <Icon
+                            name="user-suited"
+                            className="text-primary size-3 inline"
+                          ></Icon>{" "}
+                          <span className="text-xs leading-5 font-normal text-gray">
+                            {" "}
+                            {story.author}
+                          </span>
+                        </p>
+                        <p>
+                          <Icon
+                            name="speech-comments"
+                            className="text-primary  size-3 inline"
+                          ></Icon>{" "}
+                          <span className="text-xs leading-5 font-normal text-gray">
+                            {" "}
+                            {story.comments} Comments
+                          </span>
+                        </p>
+                      </div>
+                      <h3 className="text-secondary font-bold text-[20px] leading-[24px] mb-2">
+                        {story.title}
+                      </h3>
+                      <p className="text-gray text-[14px] leading-[21px] font-normal mb-2">
+                        {story.description}
+                      </p>
+                      <button className="group flex items-center  border border-white text-primary bg-white uppercase text-sm leading-[21px] font-bold  cursor-pointer hover:text-light-black mt-[25px] mb-[10px]">
+                        Read More
+                        <Icon
+                          name="arrow-right"
+                          width={20}
+                          height={22}
+                          className="inline ml-1 -rotate-45 group-hover:rotate-0 transition-all duration-400 "
+                        ></Icon>
+                      </button>
+                    </div>
+                  </section>
                 </section>
               ))}
             </section>

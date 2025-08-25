@@ -52,6 +52,11 @@ import question_icon from "@/public/images/faq/question-icon.svg";
 import story1 from "@/public/images/latest-story/story-01.png";
 import story2 from "@/public/images/latest-story/story-02.png";
 import story3 from "@/public/images/latest-story/story-03.png";
+import footer_bg from "@/public/images/footer/bg.png";
+import logo_white from "@/public/images/footer/white_logo.png";
+import reach_us from "@/public/images/footer/contact_01.png";
+import call_us from "@/public/images/footer/contact_02.png";
+import email_us from "@/public/images/footer/contact_03.png";
 
 export const AppImages = {
   Logo: logo,
@@ -108,4 +113,9 @@ export const AppImages = {
   Latest_Story_1: story1,
   Latest_Story_2: story2,
   Latest_Story_3: story3,
+  Logo_White: logo_white,
+  Footer_Bg: footer_bg,
+  Reach_Us: reach_us,
+  Call_Us: call_us,
+  Email_Us: email_us,
 };

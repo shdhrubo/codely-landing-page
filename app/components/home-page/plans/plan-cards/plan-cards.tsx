@@ -51,7 +51,7 @@ const PlanCards: React.FC<{ isYearly: boolean }> = ({ isYearly }) => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row  items-center justify-center">
+    <div className="flex flex-col md:flex-row  items-center justify-center md:mx-[-15px]">
       {pricingData.map((plan, index) => (
         <div key={index} className="md:px-[15px] w-full">
           <div
