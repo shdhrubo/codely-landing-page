@@ -5,7 +5,8 @@ import { AppImages } from "@/app/shared/image/image";
 
 const Banner = () => {
   return (
-    <main className="grid grid-cols-1 md:grid-cols-2 items-center pt-[70px] max-w-[1200px] mx-auto ">
+    <section className="grid grid-cols-1 md:grid-cols-2 items-center pt-[70px] max-w-[1200px] mx-auto ">
+      {/* text section  */}
       <div className="mx-auto text-center md:text-left max-w-[500px] px-[15px]">
         <div className="flex items-center gap-[1px] justify-center md:justify-start">
           <Icon
@@ -26,10 +27,12 @@ const Banner = () => {
           The Worlds simplest and fast platform that brings everything together
         </div>
       </div>
+
+      {/* image section  */}
       <div className="px-[15px]">
         <Image src={AppImages.Banner} alt="banner" placeholder="blur"></Image>
       </div>
-    </main>
+    </section>
   );
 };
 

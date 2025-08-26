@@ -6,9 +6,9 @@ import { AppImages } from "@/app/shared/image/image";
 const AnalyzeData = () => {
   return (
     <section className="py-[50px]">
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center  mx-auto max-w-[1200px] justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2  mx-auto max-w-[1200px] justify-center px-[15px]">
         {/* text section  */}
-        <div className="px-[15px] mx-auto md:mx-0">
+        <div className="px-[15px]  md:mx-[-15px]">
           <div className="max-w-[475px] ">
             <Image
               src={AppImages.Analyze_Image}
@@ -59,8 +59,30 @@ const AnalyzeData = () => {
           </div>
         </div>
         {/* image section  */}
-        <div className="px-0 md:px-[15px]">
-          <Image src={AppImages.Analyze_Bg} alt="Background"></Image>
+        <div
+          className="relative px-[15px] md:mx-[-15px] bg-contain bg-no-repeat min-h-[576px] flex justify-center items-center"
+          style={{ backgroundImage: `url(${AppImages.Analyze_Bg.src})` }}
+        >
+          {/* Centered Image */}
+          <Image
+            src={AppImages.Analyze_Data_3}
+            alt="image"
+            className="z-10 shadow-[0_18px_29px_#ede9fe]"
+          />
+
+          {/* Top-Right Image */}
+          <Image
+            src={AppImages.Analyze_Data_2}
+            alt="image"
+            className="absolute top-[70px] right-[65px] z-20 shadow-[0_18px_29px_#ede9fe]"
+          />
+
+          {/* Bottom-Left Image */}
+          <Image
+            src={AppImages.Analyze_Data_1}
+            alt="image"
+            className="absolute bottom-[15px] left-[105px] z-20 shadow-[0_18px_29px_#ede9fe]"
+          />
         </div>
       </div>
     </section>

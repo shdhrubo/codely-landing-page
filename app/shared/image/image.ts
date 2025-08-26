@@ -5,6 +5,9 @@ import feature2 from "@/public/images/unique-features/features_icon_02.svg";
 import feature3 from "@/public/images/unique-features/features_icon_03.svg";
 import analyze_image from "@/public/images/analyze-data/Analyze_Icon.svg";
 import analyze_bg from "@/public/images/analyze-data/Analyze_bg.png";
+import analyze_data_1 from "@/public/images/analyze-data/analyze-data-01.png";
+import analyze_data_2 from "@/public/images/analyze-data/analyze-data-02.png";
+import analyze_data_3 from "@/public/images/analyze-data/analyze-data-03.png";
 import right_icon from "@/public/images/analyze-data/right_icon.svg";
 import collaborate_image from "@/public/images/collaborate/collaborate_image.svg";
 import collaborate_bg from "@/public/images/collaborate/collaborate_bg.png";
@@ -66,6 +69,9 @@ export const AppImages = {
   Feature_Icon_3: feature3,
   Analyze_Image: analyze_image,
   Analyze_Bg: analyze_bg,
+  Analyze_Data_1: analyze_data_1,
+  Analyze_Data_2: analyze_data_2,
+  Analyze_Data_3: analyze_data_3,
   Right_Icon: right_icon,
   Collaborate_Image: collaborate_image,
   Collaborate_Bg: collaborate_bg,

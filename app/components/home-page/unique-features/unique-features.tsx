@@ -5,6 +5,7 @@ const UniqueFeatures = () => {
   return (
     <section className="pt-10 pb-[30px] md:pt-20 md:pb-[50px] ">
       <section className="px-[15px] max-w-[1200px] mx-auto">
+        {/* title of the section  */}
         <section className="text-center">
           <h2 className="text-dark-purple font-bold text-[25px] leading-[30px] mb-[10px] md:text-[40px] md:leading-12">
             Unique features
@@ -14,6 +15,8 @@ const UniqueFeatures = () => {
             indus orem Ipsum has beenthe standard dummy text ever since
           </p>
         </section>
+
+        {/* card section  */}
         <section className="mt-10">
           <FeatureCard></FeatureCard>
         </section>
