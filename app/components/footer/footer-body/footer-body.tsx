@@ -69,7 +69,7 @@ const FooterBody = () => {
   };
   return (
     <section className="pt-[230px] md:pt-50 pb-[30px] md:pb-25  bg-secondary-purple font-normal mt-[-140px] md:mt-[-120px] lg:mt-[-92px] ">
-      <div className="flex flex-wrap  flex-col justify-center items-center md:flex-row md:items-start  text-white max-w-[1200px] md:px-[15px] mx-auto">
+      <div className="flex flex-col md:flex-row justify-between items-center md:items-start  text-white max-w-[1200px] md:px-[15px] mx-auto">
         <div className="w-full md:max-w-[400px] px-[15px] ">
           <div className="md:pr-[50px] text-center md:text-start">
             <Image
