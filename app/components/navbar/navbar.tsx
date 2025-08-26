@@ -78,7 +78,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`sticky top-0 z-999 h-21 ${
+      className={`sticky top-0 z-999 h-16 md:h-21 ${
         scrolled ? styles.header_container : "bg-transparent"
       }`}
     >

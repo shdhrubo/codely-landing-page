@@ -16,6 +16,7 @@ body {
   --color-purple-secondary: #6a49f2;
   --color-green-500: #009515;
   --color-red-500: #ff0000;
+  --color-secondary-purple: #583bd3;
   --background-image-orange-gradient: linear-gradient(135deg, #ff7133, #ff8c5a);
   --background-image-hover-gradient: linear-gradient(135deg, #ff8c5a, #ff7133);
   --breakpoint-sm: 600;
