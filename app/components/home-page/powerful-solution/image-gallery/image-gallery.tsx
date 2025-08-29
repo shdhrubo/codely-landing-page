@@ -41,9 +41,9 @@ const ImageGallery = () => {
       </div>
 
       {/* Small view (2 cols) */}
-      <div className="hidden sm:flex md:hidden flex-1">
+      <div className="hidden sm:flex md:hidden flex-1 justify-center">
         {layout.sm.map((col, colIdx) => (
-          <div key={colIdx} className="flex flex-col flex-1 ">
+          <div key={colIdx} className="flex flex-col  ">
             {col.map((src, idx) => (
               <Image
                 key={`${colIdx}-${idx}`}

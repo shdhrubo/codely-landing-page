@@ -1,5 +1,6 @@
 import logo from "@/public/images/logo/logo.png";
 import banner from "@/public/images/banner/banner.png";
+import message_icon from "@/public/images/banner/mesage_icon.svg";
 import feature1 from "@/public/images/unique-features/features_icon_01.svg";
 import feature2 from "@/public/images/unique-features/features_icon_02.svg";
 import feature3 from "@/public/images/unique-features/features_icon_03.svg";
@@ -71,6 +72,7 @@ import email_us from "@/public/images/footer/contact_03.png";
 export const AppImages = {
   Logo: logo,
   Banner: banner,
+  Mail_Icon: message_icon,
   Feature_Icon_1: feature1,
   Feature_Icon_2: feature2,
   Feature_Icon_3: feature3,
