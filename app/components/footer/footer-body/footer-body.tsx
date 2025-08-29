@@ -1,3 +1,4 @@
+import Icon from "@/app/shared/icon/icon";
 import { AppImages } from "@/app/shared/image/image";
 import Image from "next/image";
 import Link from "next/link";
@@ -80,6 +81,25 @@ const FooterBody = () => {
             <p className="text-[16px] leading-[27px] mb-4">
               {footerData.description}
             </p>
+            <div className="relative mt-10">
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                autoComplete="off"
+                className="h-[50px] rounded-sm bg-white text-gray w-full px-3 py-[6px]  focus:outline-none "
+              />
+
+              <button className="absolute right-[5px] top-[4px] bg-orange text-white rounded-md px-3 py-[6px] w-[42px] h-[42px]">
+                <Icon
+                  name="paper-plane"
+                  width={20}
+                  height={22}
+                  className="inline"
+                />
+              </button>
+            </div>
           </div>
         </div>
         <div className="px-[15px] text-center md:text-start">
