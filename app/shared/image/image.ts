@@ -13,8 +13,15 @@ import collaborate_image from "@/public/images/collaborate/collaborate_image.svg
 import collaborate_bg from "@/public/images/collaborate/collaborate_bg.png";
 import sync_followers from "@/public/images/collaborate/Syncfollowers.svg";
 import globally_connected from "@/public/images/collaborate/Globallyconnected.svg";
+import collaborate_icon_1 from "@/public/images/collaborate/Collaborate-icon_1.png";
+import collaborate_icon_2 from "@/public/images/collaborate/Collaborate-icon_2.png";
+import collaborate_image_1 from "@/public/images/collaborate/Collaborate-01.png";
+import collaborate_image_2 from "@/public/images/collaborate/Collaborate-02.png";
 import communication_bg from "@/public/images/communication/communication_bg.png";
 import communication_image from "@/public/images/communication/comunication_img.svg";
+import communication_data_1 from "@/public/images/communication/cominication-data-01.png";
+import communication_data_2 from "@/public/images/communication/cominication-data-02.png";
+import communication_data_3 from "@/public/images/communication/cominication-data-03.png";
 import secure_data from "@/public/images/advanced-feature/Secure-data.svg";
 import fully_functional from "@/public/images/advanced-feature/Fully-functional.svg";
 import live_chat from "@/public/images/advanced-feature/Live-chat.svg";
@@ -77,8 +84,15 @@ export const AppImages = {
   Collaborate_Bg: collaborate_bg,
   Sync_Followers: sync_followers,
   Globally_Connected: globally_connected,
+  Collaborate_Icon_1: collaborate_icon_1,
+  Collaborate_Icon_2: collaborate_icon_2,
+  Collaborate_Image_1: collaborate_image_1,
+  Collaborate_Image_2: collaborate_image_2,
   Communication_Bg: communication_bg,
   Communication_Image: communication_image,
+  Communication_Data_1: communication_data_1,
+  Communication_Data_2: communication_data_2,
+  Communication_Data_3: communication_data_3,
   Secure_Data: secure_data,
   Fully_Functional: fully_functional,
   Live_Chat: live_chat,

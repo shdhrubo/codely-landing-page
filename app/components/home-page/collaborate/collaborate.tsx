@@ -8,8 +8,34 @@ const Collaborate = () => {
     <section className="py-[50px]">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center mx-auto max-w-[1200px]">
         {/* image section  */}
-        <div className="px-0 md:px-[15px] order-2 md:order-1">
-          <Image src={AppImages.Collaborate_Bg} alt="Background"></Image>
+        <div
+          className="relative px-[15px] md:mx-[-15px] bg-contain bg-no-repeat min-h-[576px]  order-2 md:order-1"
+          style={{ backgroundImage: `url(${AppImages.Collaborate_Bg.src})` }}
+        >
+          {/* image top row  */}
+          <div className="flex justify-center items-end gap-x-5">
+            <Image
+              src={AppImages.Collaborate_Icon_1}
+              alt="Collaborate Data 3"
+              className="shadow-[0_18px_29px_#ede9fe]"
+            />
+            <Image
+              src={AppImages.Collaborate_Image_1}
+              alt="Collaborate Data 3"
+            />
+          </div>
+          {/* image bottom row  */}
+          <div className="flex justify-center items-start mt-[35px]">
+            <Image
+              src={AppImages.Collaborate_Image_2}
+              alt="Collaborate Data 3"
+            />
+            <Image
+              src={AppImages.Collaborate_Icon_2}
+              alt="Collaborate Data 3"
+              className="ml-[-80px] z-10 shadow-[0_18px_29px_#ede9fe]"
+            />
+          </div>
         </div>
         {/* text section  */}
         <div className="w-full sm:max-w-[540px] md:max-w-[600px] px-[15px] mx-auto order-1 md:order-2">

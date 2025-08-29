@@ -59,8 +59,30 @@ const Communication = () => {
           </div>
         </div>
         {/* image section  */}
-        <div className="px-0 md:px-[15px]">
-          <Image src={AppImages.Communication_Bg} alt="Background"></Image>
+        <div
+          className="relative px-[15px] md:mx-[-15px] bg-contain bg-no-repeat min-h-[576px] flex justify-center items-center"
+          style={{ backgroundImage: `url(${AppImages.Communication_Bg.src})` }}
+        >
+          {/* Centered Image */}
+          <Image
+            src={AppImages.Communication_Data_1}
+            alt="image"
+            className="z-10 shadow-[0_18px_29px_#ede9fe]"
+          />
+
+          {/* Top-Right Image */}
+          <Image
+            src={AppImages.Communication_Data_2}
+            alt="image"
+            className="absolute top-[280px] right-[35px] z-20 shadow-[0_18px_29px_#ede9fe]"
+          />
+
+          {/* Bottom-Left Image */}
+          <Image
+            src={AppImages.Communication_Data_3}
+            alt="image"
+            className="absolute bottom-[15px] left-[25px] z-20 shadow-[0_18px_29px_#ede9fe]"
+          />
         </div>
       </div>
     </section>
