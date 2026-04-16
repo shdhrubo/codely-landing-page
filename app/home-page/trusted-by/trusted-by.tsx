@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import styles from "@/app/components/home-page/trusted-by/trusted-by.module.css";
+import styles from "@/app/home-page/trusted-by/trusted-by.module.css";
 
 const TrustedBy = () => {
   const trustedByData = [
