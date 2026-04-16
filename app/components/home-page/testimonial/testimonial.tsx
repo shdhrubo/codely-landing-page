@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
 
-import Icon from "@/app/shared/icon/icon";
+import Icon from "@/app/shared/icon/IconComponent";
 import { AppImages } from "@/app/shared/image/image";
 import Image from "next/image";
 import styles from "@/app/components/home-page/testimonial/testimonial.module.css";

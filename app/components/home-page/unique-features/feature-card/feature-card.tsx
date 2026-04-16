@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import Icon from "@/app/shared/icon/icon";
+import Icon from "@/app/shared/icon/IconComponent";
 import { AppImages } from "@/app/shared/image/image";
 
 const cardData = [

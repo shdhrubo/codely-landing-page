@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./navbar.module.css";
 import Image from "next/image";
 import { AppImages } from "@/app/shared/image/image";
-import Icon from "@/app/shared/icon/icon";
+import Icon from "@/app/shared/icon/IconComponent";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);

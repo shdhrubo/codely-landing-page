@@ -1,4 +1,4 @@
-import Icon from "@/app/shared/icon/icon";
+import Icon from "@/app/shared/icon/IconComponent";
 import { AppImages } from "@/app/shared/image/image";
 import Image from "next/image";
 import Link from "next/link";
