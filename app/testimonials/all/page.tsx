@@ -2,13 +2,14 @@ import Link from "next/link";
 import React from "react";
 import Icon from "@/app/shared/icon/IconComponent";
 import DeleteTestimonialButton from "./delete-button";
+import { BASE_URL } from "@/app/config/api-config";
 
 export default async function AllTestimonialsPage() {
   let testimonials: { id: string; Rating: number; Message: string }[] = [];
   let error = null;
 
   try {
-    const res = await fetch(`http://localhost:3000/api/testimonials`, {
+    const res = await fetch(`${BASE_URL}/api/testimonials`, {
       cache: "no-store",
     });
     const json = await res.json();

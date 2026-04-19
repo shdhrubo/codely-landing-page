@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Icon from "@/app/shared/icon/IconComponent";
+import { BASE_URL } from "@/app/config/api-config";
 
 export default function TestimonialForm() {
   const [pending, setPending] = useState(false);
@@ -23,7 +24,7 @@ export default function TestimonialForm() {
     };
 
     try {
-      const res = await fetch("http://localhost:3000/api/testimonials", {
+      const res = await fetch(`${BASE_URL}/api/testimonials`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),

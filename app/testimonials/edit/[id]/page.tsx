@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Icon from "@/app/shared/icon/IconComponent";
 import EditTestimonialForm from "./edit-form";
+import { BASE_URL } from "@/app/config/api-config";
 
 export default async function EditTestimonialPage({
   params,
@@ -14,7 +15,7 @@ export default async function EditTestimonialPage({
   let error = null;
 
   try {
-    const res = await fetch(`http://localhost:3000/api/testimonials/${id}`);
+    const res = await fetch(`${BASE_URL}/api/testimonials/${id}`);
     const json = await res.json();
     if (!res.ok) throw new Error(json.error || "Failed to load");
     testimonial = json.data;
