@@ -24,6 +24,9 @@ const Navbar = () => {
       <li>
         <Link href="/">Home</Link>
       </li>
+      <li className="flex items-center justify-between gap-1">
+        <Link href="/blog">Blog</Link>
+      </li>
       <li>
         <Link href="/">About Us</Link>
       </li>
@@ -32,15 +35,6 @@ const Navbar = () => {
       </li>
       <li className="flex items-center justify-between gap-1">
         <Link href="/">Services</Link>
-        <Icon
-          name="rounded-down"
-          className={styles.icon_style}
-          width={17}
-          height={19.2}
-        />
-      </li>
-      <li className="flex items-center justify-between gap-1">
-        <Link href="/">Blog</Link>
         <Icon
           name="rounded-down"
           className={styles.icon_style}
