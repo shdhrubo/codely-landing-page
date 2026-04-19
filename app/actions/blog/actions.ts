@@ -112,7 +112,7 @@ export async function getBlogById(id: string) {
       .single();
     if (error) return { data: null, error: error.message };
     return { data, error: null };
-  } catch (err: unknown) {
+  } catch {
     return { data: null, error: "Internal Server Error" };
   }
 }

@@ -28,10 +28,10 @@ const Navbar = () => {
         <Link href="/blog">Blog</Link>
       </li>
       <li>
-        <Link href="/">About Us</Link>
+        <Link href="/testimonials">Testimonial</Link>
       </li>
       <li>
-        <Link href="/">Testimonial</Link>
+        <Link href="/">About Us</Link>
       </li>
       <li className="flex items-center justify-between gap-1">
         <Link href="/">Services</Link>
