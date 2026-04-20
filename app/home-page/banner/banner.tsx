@@ -56,7 +56,7 @@ const Banner = () => {
               className="w-[14px] h-[15px] md:w-[17px] md:h-[19px] "
             ></Icon>
             <h6 className="text-gray text-sm leading-6 font-normal md:text-[17px] md:leading-[29px]">
-              Free trial 14 days
+              Free trial of 14 days
             </h6>
           </div>
           <div className="flex items-center gap-x-0.5">
